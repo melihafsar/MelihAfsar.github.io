@@ -1,76 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Melih Afşar</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/app.css" />
     <script src="./js/index.js"></script>
-    <style>
-        .Odev2 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 20vh;
-        }
-        table {
-            border-collapse: collapse;
-        }
-        table, th, td {
-            border: 1px solid black;
-            padding: 10px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Merhaba Dünya</h1>
+    <script src="./js/typeWriterAnimation.js"></script>
+  </head>
+  <body>
+    <div class="background-img">
+      <!-- !Header start -->
+      <div class="header">
+        <a href="https://github.com/MelihAfsar" class="logo">MELİH AFŞAR</a>
+        <div class="header-right">
+          <a class="active" href="#home">Ana Sayfa</a>
+          <a href="#contact">İletişim</a>
+          <a href="#about">Hakkımda</a>
+        </div>
+      </div>
+      <!-- Header end -->
+      <!-- Animation start -->
+      <div class="animation_text">
+        <h1>
+          Ben
+          <span
+            class="typewrite"
+            data-period="2000"
+            data-words='[" web geliştiricisiyim.", " web tasarımcısıyım.", " öğrenciyim."]'
+          >
+          </span>
+        </h1>
+        <!--!Animation end-->
 
-
-    <div class="Odev2">
-        <H1 style="padding: 30px;">Odev2</H1>
-        <table>
-            <tr>
-                <td> sutun1 </td>
-                <td> sutun2 </td>
-                <td> sutun3 </td>
-            </tr>
-            <tr>
-                <td> sutun4 </td>
-                <td> sutun5 </td>
-                <td> sutun6 </td>
-        </table>
+        <i id="more-info">Daha fazlası için lütfen sayfayı kaydırın...</i>
+      </div>
     </div>
 
-
-
-    <div class="main-container">
+    <!--!Section start-->
+    <section class="body-text">
+      <!-- !Main-Container -->
+      <div class="main-container">
         <div class="side-container">
-            <div class="photo-container">
-                <img id="profilePhoto" src="./static/images/profilePhoto.jpg" alt="Melih Afşar">
+          <div class="photo-container">
+            <img
+              id="profilePhoto"
+              src="./static/images/profilePhoto.jpg"
+              alt="Melih Afşar"
+            />
+          </div>
+          <div>
+            <h1>BANA ULAŞIN</h1>
+            <!-- TODO: linkler -->
+          </div>
+        </div>
+
+        <div class="content-container">
+          <div class="sub-content">
+            <h1>MELİH AFŞAR</h1>
+            <hr />
+          </div>
+          <div class="sub-content">
+            <h2>Kişisel Profil</h2>
+            <p>
+              Yazılım geliştirme ve tasarım bilgisine sahip bir bilgisayar
+              mühendisliği öğrencisiyim. C, Python, Java, Javacript programlama
+              dillerinde projelerde geliştirici ve yönetici olarak rol oynadım.
+              Çeşitli veritabanı ve React ile web projeleri geliştirdim. Takım
+              ile uyumlu olarak çalışma yetkinliğe sahibim.
+            </p>
+          </div>
+          <div class="sub-content">
+            <h2>İş Deneyimi</h2>
+            <div>
+              <h4>Kısmi Zamanlı Öğrenci</h4>
+              <h5>Marmara Üniversitesi | Aralık 2022 - Haziran 2022</h5>
+              <p>
+                Marmara Üniversitesi Bilgisayar Mühendisliği Bölümünde kısmi
+                zamanla öğrenci olarak çalıştım.
+              </p>
             </div>
             <div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus a consequuntur odio totam facere nulla ex reiciendis veniam odit, vero accusantium aut harum eaque nobis libero voluptates, exercitationem ad incidunt?</p>
+              <h4>Yazılım Geliştirme Stajyeri</h4>
+              <h5>Emlakjet | Temmuz 2022 - Eylül 2022</h5>
+              <p>
+                Yaz stajımı, Emlakjet Frontend takımında React öğrenerek ve
+                sektörle ilgili deneyimler elde ederek tamamladım.
+              </p>
             </div>
+          </div>
         </div>
-        <div class="content-container">
-            <div class="sub-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil odit perspiciatis, tenetur dignissimos voluptatibus temporibus consequuntur fugiat quis, beatae a enim nam quam officia ut in aspernatur ipsa repellendus vitae!</p>
-            </div>
-            <div class="sub-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil odit perspiciatis, tenetur dignissimos voluptatibus temporibus consequuntur fugiat quis, beatae a enim nam quam officia ut in aspernatur ipsa repellendus vitae!</p>
-            </div>
-            <div class="sub-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil odit perspiciatis, tenetur dignissimos voluptatibus temporibus consequuntur fugiat quis, beatae a enim nam quam officia ut in aspernatur ipsa repellendus vitae!</p>
-            </div>    
-            <div class="sub-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil odit perspiciatis, tenetur dignissimos voluptatibus temporibus consequuntur fugiat quis, beatae a enim nam quam officia ut in aspernatur ipsa repellendus vitae!</p>
-            </div>    
-            <div class="sub-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil odit perspiciatis, tenetur dignissimos voluptatibus temporibus consequuntur fugiat quis, beatae a enim nam quam officia ut in aspernatur ipsa repellendus vitae!</p>
-            </div>    
+      </div>
+      <!-- !main-container end -->
+    </section>
+    <section class="body-image"></section>
+    <section class="body-text">
+      <!-- !Main-Container -->
+      <div class="main-container">
+        <div class="side-container">
+          <div>Beceriler ve Yetkinlikler</div>
         </div>
-    </div>
-</body>
-</html>
 
+        <div class="content-container">
+          <div class="sub-content">
+            <h2>Eğitim</h2>
+            <div>
+              <h4>Marmara Üniversitesi</h4>
+              <h5>Teknoloji Fakültesi Bilgisayar Mühendisliği | 2020 - 2024</h5>
+              <p>* GNO: 3,33</p>
+              <p>
+                * Algoritma çözme, proje planlaması, bilgisayar donanımı,
+                veritabanı, C, C#, Java, Python, Javacript, .Net eğitimleri
+                aldım.
+              </p>
+            </div>
+            <div>
+              <h4>Bursa Tofaş Fen Lisesi</h4>
+              <h5>Fen Bilimleri Alanı | 2015 - 2019</h5>
+              <p>* Diploma puanı: 92,21</p>
+              <p>Yabancı Dili: İngilizce ve Fransızca</p>
+            </div>
+          </div>
+          <div class="sub-content">
+            <h2>Sertifikalar</h2>
+            <h3>BTK Akademi</h3>
+            <div>
+              <span>* Bilgi Teknolojilerine Giriş</span> <br>
+              <span>* Java ile Programlamaya</span><br>
+              <span>* Giriş Versiyon Kontrolleri Git ve Github</span> <br>
+              <span>* Web Sitesi Kullanılabilirliği</span> <br>
+              <span>* İşletim Sistemlerine Giriş</span> <br>
+              <span>* HTML5 ile Web Geliştirme</span> <br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- !main-container end -->
+    </section>
+    <section class="body-image"></section>
+    <section class="body-text">
+      <!-- !Main-Container -->
+      <div class="main-container">
+        <div class="side-container">
+          <div>Projeler</div>
+        </div>
+
+        <div class="content-container">
+          <div class="sub-content">
+            <h2>Projeler</h2>
+            <div>
+              <h4>Java, JavaSwing, MySQL</h4>
+              <a href="https://github.com/MelihAfsar/Factory-Personnel-Payroll-System"><h5>Factory-Personnel-Payroll-System<h5></a>
+            </div>
+            <div>
+              <h4>Python, OpenCV</h4>
+              <a href="https://github.com/MelihAfsar/Smart-Camera"><h5>Smart-Camera</h5></a>
+            </div>
+            <div>
+              <h4>C</h4>
+              <a href="https://github.com/MelihAfsar/yemek_otomasyonu"><h5>Yemek_Otomasyonu</h5></a>
+            </div>
+            <div>
+              <h4>Webpack, React</h4>
+              <a href="https://github.com/MelihAfsar/Netflix-Clone-React"><h5>Netflix-Clone-React</h5></a>
+            </div>
+            <div>
+              <h4>React, Python, YOLOv7</h4>
+              <a href="https://github.com/MelihAfsar/ArtificialNeuralNetworks-Python-React"><h5>ArtificialNeuralNetworks-Python-React</h5></a>
+            </div>
+            <div>
+              <h4>React, Node.js, PostgreSQL</h4>
+              <a href="https://github.com/MelihAfsar/Project-Management-Web-Application-React"><h5>Project-Management-Web-Application</h5></a>
+            </div>
+            
+          
+        </div>
+      </div>
+      <!-- !main-container end -->
+    </section>
+  </body>
+</html>
