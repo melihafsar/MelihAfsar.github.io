@@ -1,0 +1,13 @@
+footer {
+    background-color: #000;
+}
+
+#social-media-container {
+    display: flex;
+    border-width: 0px 1px 1px;
+    border-style: solid;
+    border-color: orange;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

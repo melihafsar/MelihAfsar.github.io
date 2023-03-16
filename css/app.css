@@ -3,6 +3,7 @@
 @import "./body.css";
 @import "./type-writer.css";
 @import "./social-media.css";
+@import "./footer.css";
 
 
 body,html {
@@ -11,15 +12,22 @@ body,html {
     font-family: sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    /* background: linear-gradient(#000000, #3d3e51); */
     background: rgb(19, 32, 42);
     color: whitesmoke;
 }
 
 .body-image {
     height: 300px;
+    border-width: 0px 1px;
+    border-style: solid;
+    border-color: orange;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-image: url(../static/images/w.jpg);
+}
+.body-text {
+    border-width: 0px 1px;
+    border-style: solid;
+    border-color: orange;
 }
