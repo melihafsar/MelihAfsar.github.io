@@ -1,0 +1,116 @@
+.wrapper-skill {
+    width: 100%;
+}
+
+.container-skill {
+    width: 100%;
+    padding: 30px 30px 50px;
+    
+    border: 2px solid rgba(255, 255, 255, 0.623);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.container-skill * {
+    color: white;
+    font-weight: 500;
+}
+
+.container-skill h2 {
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.skills:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bar {
+    position: relative;
+
+    border: 2px solid orange;
+
+    border-radius: 20px;
+
+}
+
+.bar div {
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: orange;
+
+
+}
+
+#general-bar {
+    animation: general-fill 2s forwards;
+}
+
+@keyframes general-fill {
+    100% {
+        width: 95%;
+    }
+}
+
+#html-css-bar {
+    animation: html-css-fill 2s forwards;
+}
+
+@keyframes html-css-fill {
+    100% {
+        width: 85%;
+    }
+}
+
+#react-bar {
+    animation: react-fill 2s forwards;
+}
+
+@keyframes react-fill {
+    100% {
+        width: 75%;
+    }
+}
+
+#rest-api-bar {
+    animation: rest-api-fill 2s forwards;
+}
+
+@keyframes rest-api-fill {
+    100% {
+        width: 65%;
+    }
+}
+
+#database-bar {
+    animation: database-fill 2s forwards;
+}
+
+@keyframes database-fill {
+    100% {
+        width: 60%;
+    }
+}
+
+#low-bar {
+    animation: low-fill 2s forwards;
+}
+
+@keyframes low-fill {
+    100% {
+        width: 55%;
+    }
+}
