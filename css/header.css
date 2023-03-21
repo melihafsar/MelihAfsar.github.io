@@ -48,3 +48,20 @@
     }
   }
   /* !navbar */
+
+  #more-info {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: normal;
+    font-weight: bold;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    #more-info {
+        font-size:small;
+    }
+}

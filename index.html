@@ -15,7 +15,7 @@
 
   <!-- !Header start -->
   <header class="background-img">
-    <div class="navbar">
+    <div id="home" class="navbar">
       <a href="https://github.com/MelihAfsar" class="logo">MELİH AFŞAR</a>
       <div class="navbar-right">
         <a class="active" href="#home">Ana Sayfa</a>
@@ -32,22 +32,22 @@
         </span>
       </h1>
       <!--!Animation end-->
-      <i id="more-info">Daha fazlası için lütfen sayfayı kaydırın...</i>
     </div>
+    <a href="#about" id="more-info"><i>Daha fazlası için lütfen sayfayı kaydırın...</i></a>
   </header>
   <!--! Header end -->
 
   <!--!Section start-->
-  <section class="body-text">
+  <section id="contact" class="body-text">
     <!-- !Main-Container -->
-    <hr class="hidden">
+    <hr id="about" class="hidden">
     <div class="main-container">
       <div class="side-container">
         <div class="photo-container">
           <img id="profilePhoto" src="./static/images/profilePhoto.jpg" alt="Melih Afşar" />
         </div>
         <div>
-          <h1>BANA ULAŞIN</h1>
+          <h4>BANA ULAŞIN</h4>
           <!-- TODO: linkler -->
         </div>
       </div>
@@ -124,12 +124,14 @@
           <h2>Sertifikalar</h2>
           <h3>BTK Akademi</h3>
           <div>
-            <span>* Bilgi Teknolojilerine Giriş</span> <br>
-            <span>* Java ile Programlamaya</span><br>
-            <span>* Giriş Versiyon Kontrolleri Git ve Github</span> <br>
-            <span>* Web Sitesi Kullanılabilirliği</span> <br>
-            <span>* İşletim Sistemlerine Giriş</span> <br>
-            <span>* HTML5 ile Web Geliştirme</span> <br>
+            <ul class="certificate-list">
+              <li><p>Bilgi Teknolojilerine Giriş</p></li>
+              <li><p>Java ile Programlamaya</p></li>
+              <li><p>Giriş Versiyon Kontrolleri Git ve Github</p></li>
+              <li><p>Web Sitesi Kullanılabilirliği</p></li>
+              <li><p>İşletim Sistemlerine Giriş</p></li>
+              <li><p>HTML5 ile Web Geliştirme</p></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -143,7 +145,7 @@
     <hr class="hidden">
     <div class="main-container">
       <div class="side-container">
-        <div>Projeler</div>
+        <h2>Projeler</h2>
       </div>
 
       <div class="content-container">
@@ -152,37 +154,37 @@
           <div>
             <h4>Java, JavaSwing, MySQL</h4>
             <a href="https://github.com/MelihAfsar/Factory-Personnel-Payroll-System">
-              <h5>Factory-Personnel-Payroll-System<h5>
+              Factory-Personnel-Payroll-System
             </a>
           </div>
           <div>
             <h4>Python, OpenCV</h4>
             <a href="https://github.com/MelihAfsar/Smart-Camera">
-              <h5>Smart-Camera</h5>
+              Smart-Camera
             </a>
           </div>
           <div>
             <h4>C</h4>
             <a href="https://github.com/MelihAfsar/yemek_otomasyonu">
-              <h5>Yemek_Otomasyonu</h5>
+              Yemek_Otomasyonu
             </a>
           </div>
           <div>
             <h4>Webpack, React</h4>
             <a href="https://github.com/MelihAfsar/Netflix-Clone-React">
-              <h5>Netflix-Clone-React</h5>
+              Netflix-Clone-React
             </a>
           </div>
           <div>
             <h4>React, Python, YOLOv7</h4>
             <a href="https://github.com/MelihAfsar/ArtificialNeuralNetworks-Python-React">
-              <h5>ArtificialNeuralNetworks-Python-React</h5>
+              ArtificialNeuralNetworks-Python-React
             </a>
           </div>
           <div>
             <h4>React, Node.js, PostgreSQL</h4>
             <a href="https://github.com/MelihAfsar/Project-Management-Web-Application-React">
-              <h5>Project-Management-Web-Application</h5>
+              Project-Management-Web-Application
             </a>
           </div>
         </div>
@@ -197,7 +199,6 @@
       <!-- !social-media-links start-->
       <ul>
         <div></div>
-
         <li>
           <a href="https://github.com/MelihAfsar">
             <span class="fa fa-github"></span>

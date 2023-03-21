@@ -5,29 +5,29 @@ a {
     text-decoration: none;
 }
 
-ul {
+#social-media-container ul {
     position: relative;
     display: flex;
     padding: 0;
     margin: 50px;
 }
 
-ul div {
+#social-media-container ul div {
     width: 40px;
     height: 5px;
     background-color: orange;
     margin: auto;
 }
 
-ul li {
+#social-media-container ul li {
     position: relative;
     list-style: none;
     width: 70px;
     height: 70px;
-    margin: 0 20px;
+    margin: 10px 20px;
 }
 
-ul li span {
+#social-media-container ul li span {
     border-radius: 50%;
     width: 100%;
     height: 100%;
@@ -40,22 +40,22 @@ ul li span {
     transition: 1.5s ease-out;
 }
 
-ul li:hover span {
+#social-media-container ul li:hover span {
     transition: .3s;
 }
 
-ul li:nth-child(2):hover span{
+#social-media-container ul li:nth-child(2):hover span{
     background: #374682 !important;
 }
 
-ul li:nth-child(3):hover span{
+#social-media-container ul li:nth-child(3):hover span{
     background: #6A9Aee !important;
 }
 
-ul li:nth-child(4):hover span{
+#social-media-container ul li:nth-child(4):hover span{
     background: #CC296C !important;
 }
 
-ul li:nth-child(5):hover span{
+#social-media-container ul li:nth-child(5):hover span{
     background: #2C3456 !important;
 }

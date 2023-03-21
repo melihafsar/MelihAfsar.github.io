@@ -4,7 +4,7 @@
 @import "./type-writer.css";
 @import "./social-media.css";
 @import "./footer.css";
-
+@import "./media-screen.css";
 
 body,html {
     margin: 0;
