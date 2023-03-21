@@ -19,10 +19,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 86%;
     margin: 0px auto;
     padding: 20px;
-    border: 2px solid #ccc;
+
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
 }
 
 .side-container {
@@ -32,11 +36,7 @@
 
     width: 30%;
     float: left;
-    padding: 5px;
-
-    border: 1px solid #ccc;
-    height: 99%;
-
+    /* border: 1px solid #ccc; */
     text-align: center;
 }
 
@@ -50,16 +50,26 @@
 
 .content-container {
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
     float: right;
     padding: 5px;
-    border: 1px solid #ccc;
+    height: auto;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+
 }
 
 .sub-content{
     width: 100%;
     float: left;
-    padding: 20px;
-    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    /* border: 1px solid #ccc; */
 }
 
 .certificate-list {
@@ -72,3 +82,6 @@ hr.hidden {
     height: 25px;
 }
 
+.content-li {
+    padding-left: 15px;
+}
