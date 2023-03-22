@@ -9,18 +9,20 @@
   <link rel="stylesheet" href="./css/app.css" />
   <script src="./js/index.js"></script>
   <script src="./js/typeWriterAnimation.js"></script>
+  <!--Google Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
   <!-- !Header start -->
   <header class="background-img">
     <div id="home" class="navbar">
       <a href="https://github.com/MelihAfsar" class="logo">MELİH AFŞAR</a>
       <div class="navbar-right">
-        <a class="active" href="#home">Ana Sayfa</a>
-        <a href="#contact">İletişim</a>
+        <a href="#home">Ana Sayfa</a>
         <a href="#about">Hakkımda</a>
+        <a href="#project">Projelerim</a>
+        <a href="#contact">İletişim</a>
       </div>
     </div>
     <!-- !Animation start -->
@@ -97,27 +99,88 @@
     <hr class="hidden">
     <div class="main-container">
       <div class="side-container">
-        <div>Beceriler ve Yetkinlikler</div>
+        <div class="wrapper-skill">
+          <div class="container-skill">
+            <h2>Beceriler ve Yetkinlikler</h2>
+            <div class="skills">
+              <div class="details">
+                <span> Proje Yönetimi - Ekip Çalışması - İletişim</span>
+              </div>
+              <div class="bar">
+                <div id="general-bar"></div>
+              </div>
+            </div>
+            <div class="skills">
+              <div class="details">
+                <span>HTML - CSS</span>
+              </div>
+              <div class="bar">
+                <div id="html-css-bar"></div>
+              </div>
+            </div>
+            <div class="skills">
+              <div class="details">
+                <span>Javascript - React - Webpack</span>
+              </div>
+              <div class="bar">
+                <div id="react-bar"></div>
+              </div>
+            </div>
+            <div class="skills">
+              <div class="details">
+                <span>Node.js - Express.js - React - Rest Api</span>
+              </div>
+              <div class="bar">
+                <div id="rest-api-bar"></div>
+              </div>
+            </div>
+            <div class="skills">
+              <div class="details">
+                <span>MSSQL - MySQL - PostgreSQL</span>
+              </div>
+              <div class="bar">
+                <div id="database-bar"></div>
+              </div>
+            </div>
+            <div class="skills">
+              <div class="details">
+                <span>C - Python - Java - C#</span>
+              </div>
+              <div class="bar">
+                <div id="low-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="content-container">
         <div class="sub-content">
           <h2>Eğitim</h2>
+          <br>
           <div>
-            <h4>Marmara Üniversitesi</h4>
+            <h3>Marmara Üniversitesi</h3>
             <h5>Teknoloji Fakültesi Bilgisayar Mühendisliği | 2020 - 2024</h5>
-            <p>* GNO: 3,33</p>
-            <p>
-              * Algoritma çözme, proje planlaması, bilgisayar donanımı,
-              veritabanı, C, C#, Java, Python, Javacript, .Net eğitimleri
-              aldım.
-            </p>
+            <ul class="content-li">
+              <li>
+                <p>GNO: 3,33</p>
+              </li>
+              <li>
+                <p>Algoritma çözme, proje planlaması, bilgisayar donanımı,
+                  veritabanı, C, C#, Java, Python, Javacript, .Net eğitimleri
+                  aldım.
+                </p>
+              </li>
+            </ul>
           </div>
+          <br>
           <div>
-            <h4>Bursa Tofaş Fen Lisesi</h4>
+            <h3>Bursa Tofaş Fen Lisesi</h3>
             <h5>Fen Bilimleri Alanı | 2015 - 2019</h5>
-            <p>* Diploma puanı: 92,21</p>
-            <p>Yabancı Dili: İngilizce ve Fransızca</p>
+            <ul class="content-li">
+              <li><p>Diploma puanı: 92,21</p></li>
+              <li><p>Yabancı Dili: İngilizce ve Fransızca</p></li>
+            </ul>
           </div>
         </div>
         <div class="sub-content">
@@ -125,12 +188,24 @@
           <h3>BTK Akademi</h3>
           <div>
             <ul class="certificate-list">
-              <li><p>Bilgi Teknolojilerine Giriş</p></li>
-              <li><p>Java ile Programlamaya</p></li>
-              <li><p>Giriş Versiyon Kontrolleri Git ve Github</p></li>
-              <li><p>Web Sitesi Kullanılabilirliği</p></li>
-              <li><p>İşletim Sistemlerine Giriş</p></li>
-              <li><p>HTML5 ile Web Geliştirme</p></li>
+              <li>
+                <p>Bilgi Teknolojilerine Giriş</p>
+              </li>
+              <li>
+                <p>Java ile Programlamaya</p>
+              </li>
+              <li>
+                <p>Giriş Versiyon Kontrolleri Git ve Github</p>
+              </li>
+              <li>
+                <p>Web Sitesi Kullanılabilirliği</p>
+              </li>
+              <li>
+                <p>İşletim Sistemlerine Giriş</p>
+              </li>
+              <li>
+                <p>HTML5 ile Web Geliştirme</p>
+              </li>
             </ul>
           </div>
         </div>

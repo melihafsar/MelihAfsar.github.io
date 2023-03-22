@@ -2,27 +2,54 @@
     h1 {
         font-size: 20px;
     }
+
     h2 {
-       font-size: 17px;
+        font-size: 17px;
     }
+
     h3 {
         font-size: 15px;
     }
+
     h4 {
         font-size: 13px;
     }
+
     h5 {
         font-size: 11px;
     }
+
     p {
         font-size: 9px;
     }
+
     a {
         font-size: 11px;
     }
+
     li {
         font-size: 11px;
     }
+
+    .main-container {
+        flex-direction: column;
+        width: 90%;
+        padding: 5px;
+    }
+
+    .side-container {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .content-container {
+        width: 100%;
+    }
+
+    .sub-content {
+        padding: 5px;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -34,4 +61,3 @@
         margin: 30px;
     }
 }
-

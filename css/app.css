@@ -5,6 +5,7 @@
 @import "./social-media.css";
 @import "./footer.css";
 @import "./media-screen.css";
+@import "./skill.css";
 
 body,html {
     margin: 0;
@@ -18,7 +19,7 @@ body,html {
 
 .body-image {
     height: 300px;
-    border-width: 0px 1px;
+    border-width: 0px 2px;
     border-style: solid;
     border-color: orange;
     background-size: cover;
@@ -27,7 +28,15 @@ body,html {
     background-image: url(../static/images/w.jpg);
 }
 .body-text {
-    border-width: 0px 1px;
+    border-width: 0px 2px;
     border-style: solid;
     border-color: orange;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: "Poppins", sans-serif;
+}
+
+p{
+    font-size: 14px;
 }
