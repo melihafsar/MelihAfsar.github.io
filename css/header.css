@@ -14,6 +14,7 @@
     font-size: 18px; 
     line-height: 25px;
     border-radius: 5px;
+    position: relative;
   }
   
   .navbar a.logo {
@@ -21,16 +22,27 @@
     font-weight: bold;
   }
   
-  .navbar a:hover {
-    background-color: orange;
-    color: white;
-  }
-  
-  .navbar a.active {
+.navbar a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: orange;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    transition: 0.5s;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.navbar a.active {
     /* background-color: orange; */
     /* color: white; */
     padding: 10px 15px;
-  }
+}
   
   .navbar-right {
     float: right;
