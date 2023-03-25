@@ -6,6 +6,7 @@
 @import "./footer.css";
 @import "./media-screen.css";
 @import "./skill.css";
+@import "./loading-animation.css";
 
 body,html {
     margin: 0;
@@ -15,6 +16,11 @@ body,html {
     line-height: 1.5;
     background: rgb(19, 32, 42);
     color: whitesmoke;
+}
+
+.loading-animation{
+    z-index: -1;
+    filter: blur(0px);
 }
 
 .body-image {
