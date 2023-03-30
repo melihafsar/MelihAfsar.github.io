@@ -1,79 +1,122 @@
 /* !navbar */
 .navbar {
-    overflow: hidden;
-    padding: 20px 10px;
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+.navbar a {
+  float: left;
+  color: orange;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.navbar a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  animation-name: down-animation;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes down-animation {
+  0% {
+    top: 0px;
   }
-  
-  .navbar a {
-    float: left;
-    color: orange;
-    text-align: center;
-    padding: 10px;
-    margin: 5px;
-    text-decoration: none;
-    font-size: 18px; 
-    line-height: 25px;
-    border-radius: 5px;
-    position: relative;
+
+  50% {
+    top : 4px;
   }
-  
-  .navbar a.logo {
-    font-size: 25px;
-    font-weight: bold;
+
+  100% {
+    top: 0px;
   }
-  
+}
+
+
 .navbar a::after {
-    content: '';
-    width: 0;
-    height: 3px;
-    background: orange;
-    position: absolute;
-    left: 0;
-    bottom: -4px;
-    transition: 0.5s;
+  content: '';
+  width: 0;
+  height: 3px;
+  background: orange;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  transition: 0.5s;
 }
 
 .navbar a:hover::after {
-    width: 100%;
-    transition: 0.5s;
+  width: 100%;
+  transition: 0.5s;
 }
 
 .navbar a.active {
-    /* background-color: orange; */
-    /* color: white; */
-    padding: 10px 15px;
+  /* background-color: orange; */
+  /* color: white; */
+  padding: 10px 15px;
 }
-  
-  .navbar-right {
-    float: right;
-  }
-  
-  @media screen and (max-width: 700px) {
-    .navbar a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    
-    .navbar-right {
-      float: none;
-    }
-  }
-  /* !navbar */
 
-  #more-info {
-    width: 100%;
-    text-align: center;
-    color: white;
-    font-size: normal;
-    font-weight: bold;
-    padding: 10px;
-    position: absolute;
-    bottom: 10px;
+.navbar-right {
+  float: right;
 }
+
+@media screen and (max-width: 700px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .navbar-right {
+    float: none;
+  }
+}
+
+/* !navbar */
+
+#more-info {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: normal;
+  font-weight: bold;
+  padding: 10px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.up-down-animation {
+  animation-name: up-down-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up-down-animation {
+  0% {
+    bottom: 0px;
+  }
+
+  50% {
+    bottom: 10px;
+  }
+
+  100% {
+    bottom: 0px;
+  }
+}
+
 
 @media screen and (max-width: 500px) {
-    #more-info {
-        font-size:small;
-    }
+  #more-info {
+    font-size: small;
+  }
 }

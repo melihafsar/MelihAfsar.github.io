@@ -8,6 +8,7 @@
   <meta http-equiv="refresh" content="30000" >
   <title>Melih Afşar</title>
   <link rel="stylesheet" href="./css/app.css" />
+  <script src="./js/elementAnimation.js"></script>
 
   <!--Google Font-->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
@@ -35,7 +36,7 @@
       </h1>
       <!--!Animation end-->
     </div>
-    <a href="#about" id="more-info"><i>Daha fazlası için lütfen sayfayı kaydırın...</i></a>
+    <a href="#about" id="more-info" onmouseover="addAnimateClass(this)" onmouseout="removeAnimateClass(this)"><i>Daha fazlası için lütfen sayfayı kaydırın...</i></a>
   </header>
   <!--! Header end -->
 
@@ -268,6 +269,23 @@
     <!-- !main-container end -->
     <hr class="hidden">
   </section>
+
+
+
+  <section class="body-image"></section>
+  <section class="body-text contact-form" id="contact">
+    <h1 class="heading"> Benimle İletişime Geç</h1>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" id="nameAndSurname" placeholder="İsim Soyisim">
+            <input type="email" id="email" placeholder="Email Adresiniz">
+        </div>
+        <textarea name="" id="message" cols="20" rows="5" placeholder="Mesajınız"></textarea>
+        <input type="submit" value="Gönder" class="btn" onclick="showInfo()">
+    </form>
+</section>
+
+
 
   <footer id="contact">
     <div id="social-media-container">
