@@ -17,6 +17,7 @@ body,html {
     line-height: 1.5;
     background: rgb(19, 32, 42);
     color: whitesmoke;
+    scroll-behavior:smooth;
 }
 
 .loading-animation{
@@ -46,4 +47,28 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 p{
     font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.color-orange {
+    color: orange;
+    font-size: 1.6em;
+}
+
+strong span{
+    font-size: 1.1em;
+}
+
+.container-boarder {
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.border-color-orange {
+    border-color: orange;
 }
