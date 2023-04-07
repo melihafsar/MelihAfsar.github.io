@@ -1,362 +1,361 @@
 <!DOCTYPE html>
 <html lang="tr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="refresh" content="30000" />
-    <title>Melih Afşar</title>
-    <link rel="stylesheet" href="./css/app.css" />
-    <script src="./js/elementAnimation.js"></script>
 
-    <!--Google Font-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="refresh" content="30000" />
+  <title>Melih Afşar</title>
+  <meta name="description" content="Melih Afşar kişisel web sitesi" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./static/favicon.ico/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./static/favicon.ico/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./static/favicon.ico/favicon-16x16.png" />
+  <link rel="manifest" href="./static/favicon.ico/site.webmanifest" />
+  <link rel="mask-icon" href="./static/favicon.ico/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
 
-  <body class="loading-animation">
-    <!-- !Header start -->
-    <header class="background-img">
-      <div id="home" class="navbar">
-        <a href="https://github.com/MelihAfsar" class="logo">MELİH AFŞAR</a>
-        <div class="navbar-right">
-          <a href="#home">Ana Sayfa</a>
-          <a href="#about">Hakkımda</a>
-          <a href="#project">Projelerim</a>
-          <a href="#contact">İletişim</a>
-        </div>
-      </div>
-      <!-- !Animation start -->
-      <div class="animation_text">
-        <h1>
-          Ben
-          <span
-            class="typewrite"
-            data-period="2000"
-            data-words='[" web geliştiricisiyim.", " web tasarımcısıyım.", " öğrenciyim."]'
-          >
-          </span>
-        </h1>
-        <!--!Animation end-->
-      </div>
-      <a
-        href="#about"
-        id="more-info"
-        onmouseover="addAnimateClass(this)"
-        onmouseout="removeAnimateClass(this)"
-        ><i>Daha fazlası için lütfen sayfayı kaydırın...</i></a
-      >
-    </header>
-    <!--! Header end -->
+  <link rel="stylesheet" href="./css/app.css" />
+  <script src="./js/elementAnimation.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+</head>
 
-    <!--!Section start-->
-    <section class="body-text">
-      <!-- !Main-Container -->
-      <hr id="about" class="hidden" />
-      <div class="main-container container-boarder">
-        <div class="side-container container-boarder">
-          <div class="photo-container">
-            <img
-              id="profilePhoto"
-              src="./static/images/profilePhoto.jpg"
-              alt="Melih Afşar"
-            />
-            <h2 class="color-orange">Frontend Developer</h2>
-          </div>
-          <div class="information">
-            <p>
-              <strong> Website: </strong> <span> melihafsar.github.io </span>
-            </p>
-            <p>
-              <strong> Email: </strong> <span> afsarmelih@icloud.com </span>
-            </p>
-            <p><strong> Telefon: </strong> <span> +90 534 211 03 28 </span></p>
-            <p><strong> Şehir: </strong> <span> Nilüfer/Bursa, TR </span></p>
-            <p>
-              <strong> Derece: </strong> <span> Lisans - </span>
-              <strong> Yaş: </strong> <span> 21 </span>
-            </p>
-            <p></p>
-          </div>
-        </div>
+<body class="loading-animation">
+  <!-- !Header start -->
+  <header class="background-img">
+    <div id="home" class="navbar">
+      <a href="https://github.com/MelihAfsar" class="logo">MELİH AFŞAR</a>
+      <div class="navbar-right">
+        <a href="#home" style="--i:1" class="sub-link">Ana Sayfa</a>
+        <a href="#about" style="--i:2" class="sub-link">Hakkımda</a>
+        <a href="#project" style="--i:3" class="sub-link">Projelerim</a>
+        <a href="#contact" style="--i:4" class="sub-link">İletişim</a>
+      </div>
+    </div>
 
-        <div class="content-container container-boarder">
-          <div class="sub-content">
-            <h1>MELİH AFŞAR</h1>
-            <hr />
-          </div>
-          <div class="sub-content">
-            <h2 class="color-orange">Kişisel Profil</h2>
-            <p>
-              > Yazılım geliştirme ve tasarım bilgisine sahip bir bilgisayar
-              mühendisliği öğrencisiyim. C, Python, Java, Javacript programlama
-              dillerinde projelerde geliştirici ve yönetici olarak rol oynadım.
-              Çeşitli veritabanı ve React ile web projeleri geliştirdim. Takım
-              ile uyumlu olarak çalışma yetkinliğe sahibim.
-            </p>
-          </div>
-          <div class="sub-content">
-            <h2 class="color-orange">İş Deneyimi</h2>
-            <div>
-              <h4>> Kısmi Zamanlı Öğrenci</h4>
-              <h5>Marmara Üniversitesi | Aralık 2022 - Haziran 2022</h5>
-              <p>
-                Marmara Üniversitesi Bilgisayar Mühendisliği Bölümünde kısmi
-                zamanla öğrenci olarak çalıştım.
-              </p>
-            </div>
-            <div>
-              <h4>> Yazılım Geliştirme Stajyeri</h4>
-              <h5>Emlakjet | Temmuz 2022 - Eylül 2022</h5>
-              <p>
-                Yaz stajımı, Emlakjet Frontend takımında React öğrenerek ve
-                sektörle ilgili deneyimler elde ederek tamamladım.
-              </p>
-            </div>
-          </div>
-        </div>
+    <section class="home">
+      <div class="home-content">
+        <h1>Melih Afşar</h1>
+        <h3><span class="multiple-text"></span></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure blanditiis molestias quam fugit optio officia
+          eaque ea, laudantium aspernatur? Quis voluptas id placeat sint possimus eveniet quia nisi voluptatum!
+          Voluptatibus!</p>
+        <a href="#" class="download-btn">CV indir</a>
       </div>
-      <hr class="hidden" />
-      <!-- !main-container end -->
-    </section>
-    <section class="body-image"></section>
-    <section class="body-text">
-      <!-- !Main-Container -->
-      <hr class="hidden" />
-      <div class="main-container container-boarder">
-        <div class="side-container container-boarder">
-          <div class="wrapper-skill">
-            <div class="container-skill">
-              <h2>Beceriler ve Yetkinlikler</h2>
-              <div class="skills">
-                <div class="details">
-                  <span> Proje Yönetimi - Ekip Çalışması - İletişim</span>
-                </div>
-                <div class="bar">
-                  <div id="general-bar"></div>
-                </div>
-              </div>
-              <div class="skills">
-                <div class="details">
-                  <span>HTML - CSS</span>
-                </div>
-                <div class="bar">
-                  <div id="html-css-bar"></div>
-                </div>
-              </div>
-              <div class="skills">
-                <div class="details">
-                  <span>Javascript - React - Webpack</span>
-                </div>
-                <div class="bar">
-                  <div id="react-bar"></div>
-                </div>
-              </div>
-              <div class="skills">
-                <div class="details">
-                  <span>Node.js - Express.js - React - Rest Api</span>
-                </div>
-                <div class="bar">
-                  <div id="rest-api-bar"></div>
-                </div>
-              </div>
-              <div class="skills">
-                <div class="details">
-                  <span>MSSQL - MySQL - PostgreSQL</span>
-                </div>
-                <div class="bar">
-                  <div id="database-bar"></div>
-                </div>
-              </div>
-              <div class="skills">
-                <div class="details">
-                  <span>C - Python - Java - C#</span>
-                </div>
-                <div class="bar">
-                  <div id="low-bar"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="content-container container-boarder">
-          <div class="sub-content">
-            <h2 class="color-orange">Eğitim</h2>
-            <br />
-            <div>
-              <h3>> Marmara Üniversitesi</h3>
-              <h5>Teknoloji Fakültesi Bilgisayar Mühendisliği | 2020 - 2024</h5>
-              <ul class="content-li">
-                <li>
-                  <p>GNO: 3,33</p>
-                </li>
-                <li>
-                  <p>
-                    Algoritma çözme, proje planlaması, bilgisayar donanımı,
-                    veritabanı, C, C#, Java, Python, Javacript, .Net eğitimleri
-                    aldım.
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <br />
-            <div>
-              <h3>> Bursa Tofaş Fen Lisesi</h3>
-              <h5>Fen Bilimleri Alanı | 2015 - 2019</h5>
-              <ul class="content-li">
-                <li>
-                  <p>Diploma puanı: 92,21</p>
-                </li>
-                <li>
-                  <p>Yabancı Dili: İngilizce ve Fransızca</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="sub-content">
-            <h2 class="color-orange">Sertifikalar</h2>
-            <h3>> BTK Akademi</h3>
-            <div>
-              <ul class="certificate-list">
-                <li>
-                  <p>Bilgi Teknolojilerine Giriş</p>
-                </li>
-                <li>
-                  <p>Java ile Programlamaya</p>
-                </li>
-                <li>
-                  <p>Giriş Versiyon Kontrolleri Git ve Github</p>
-                </li>
-                <li>
-                  <p>Web Sitesi Kullanılabilirliği</p>
-                </li>
-                <li>
-                  <p>İşletim Sistemlerine Giriş</p>
-                </li>
-                <li>
-                  <p>HTML5 ile Web Geliştirme</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr class="hidden" />
-      <!-- !main-container end -->
-    </section>
-    <section class="body-image"></section>
-    <section class="body-text">
-      <!-- !Main-Container -->
-      <hr id="project" class="hidden" />
-      <div class="project-container container-boarder">
-        <div>
-          <h2 class="color-orange">Projeler</h2><br>
-        </div>
-        <div class="project-card-container">
-          <div class="container-boarder border-color-orange project-card">
-            <h4>Factory-Personnel-Payroll-System</h4>
-            <a href="https://github.com/MelihAfsar/Factory-Personnel-Payroll-System">
-            <img src="./static/images/factory-personnel.png" alt="Factory-Personnel-Payroll-System">
-            </a>
-            </a>
-          </div>
-          <div class="container-boarder border-color-orange project-card">
-            <h4>Smart-Camera</h4>
-            <a href="https://github.com/MelihAfsar/Smart-Camera">
-              <img src="./static/images/smart-camera.png" alt="Smart-Camera">
-            </a>
-            </a>
-          </div>
-          <div class="container-boarder border-color-orange project-card">
-            <h4>Yemek_Otomasyonu</h4>
-            <a href="https://github.com/MelihAfsar/yemek_otomasyonu">
-              <img src="./static/images/yemek-otomasyon.png" alt="Yemek_Otomasyonu">
-            </a>
-            </a>
-          </div>
-          <div class="container-boarder border-color-orange project-card ">
-            <h4>Netflix-Clone-React</h4>
-            <a href="https://github.com/MelihAfsar/Netflix-Clone-React">
-              <img src="./static/images/netflix.png" alt="Netflix-Clone-React">
-            </a>
-            </a>
-          </div>
-          <div class="container-boarder border-color-orange project-card ">
-            <h4>ArtificialNeuralNetworks-Python-React</h4>
-            <a href="https://github.com/MelihAfsar/ArtificialNeuralNetworks-Python-React">
-              <img src="./static/images/artifical-neural.png" alt="ArtificialNeuralNetworks-Python-React">
-            </a>
-            </a>
-          </div>
-          <div class="container-boarder border-color-orange project-card ">
-            <h4>Project-Management-Web-Application</h4>
-            <a href="https://github.com/MelihAfsar/Project-Management-Web-Application-React">
-               <img src="./static/images/factory-personnel.png" alt="Factory-Personnel-Payroll-System">
-            </a>
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- !main-container end -->
-      <hr class="hidden" />
     </section>
 
-    <section class="body-image"></section>
-    <section class="body-text contact-form" id="contact">
-      <br />
+    <a href="#about" id="more-info" onmouseover="addAnimateClass(this)" onmouseout="removeAnimateClass(this)">
+      <i>Daha fazlası için lütfen sayfayı kaydırın...</i>
+    </a>
+  </header>
+  <!--! Header end -->
+
+  <!--!Section start-->
+  <section class="body-text">
+    <!-- !Main-Container -->
+    <hr id="about" class="hidden" />
+    <div class="main-container container-boarder">
+      <div class="side-container">
+        <div class="photo-container">
+          <img id="profilePhoto" src="./static/images/profilePhoto.jpeg" alt="Melih Afşar" />
+          <h2 class="color-orange">Frontend Developer</h2>
+        </div>
+        <div class="information">
+          <p>
+            <strong> Website: </strong> <span> melihafsar.github.io </span>
+          </p>
+          <p>
+            <strong> Email: </strong> <span> afsarmelih@icloud.com </span>
+          </p>
+          <p><strong> Telefon: </strong> <span> +90 534 211 03 28 </span></p>
+          <p><strong> Şehir: </strong> <span> Nilüfer/Bursa, TR </span></p>
+          <p>
+            <strong> Derece: </strong> <span> Lisans - </span>
+            <strong> Yaş: </strong> <span> 21 </span>
+          </p>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="content-container">
+        <div class="sub-content">
+          <h1>MELİH AFŞAR</h1>
+          <hr />
+        </div>
+        <div class="sub-content">
+          <h2 class="color-orange">Kişisel Profil</h2>
+          <p>
+            > Yazılım geliştirme ve tasarım bilgisine sahip bir bilgisayar
+            mühendisliği öğrencisiyim. C, Python, Java, Javacript programlama
+            dillerinde projelerde geliştirici ve yönetici olarak rol oynadım.
+            Çeşitli veritabanı ve React ile web projeleri geliştirdim. Takım
+            ile uyumlu olarak çalışma yetkinliğe sahibim.
+          </p>
+        </div>
+        <div class="sub-content">
+          <h2 class="color-orange">İş Deneyimi</h2>
+          <div>
+            <h4>> Kısmi Zamanlı Öğrenci</h4>
+            <h5>Marmara Üniversitesi | Aralık 2022 - Haziran 2022</h5>
+            <p>
+              Marmara Üniversitesi Bilgisayar Mühendisliği Bölümünde kısmi
+              zamanla öğrenci olarak çalıştım.
+            </p>
+          </div>
+          <div>
+            <h4>> Yazılım Geliştirme Stajyeri</h4>
+            <h5>Emlakjet | Temmuz 2022 - Eylül 2022</h5>
+            <p>
+              Yaz stajımı, Emlakjet Frontend takımında React öğrenerek ve
+              sektörle ilgili deneyimler elde ederek tamamladım.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="hidden" />
+    <!-- !main-container end -->
+  </section>
+  <section class="body-image"></section>
+  <section class="body-text">
+    <!-- !Main-Container -->
+    <hr class="hidden" />
+    <div class="main-container container-boarder">
+      <div class="side-container">
+        <div class="wrapper-skill">
+          <div class="container-skill">
+            <h2>Beceriler ve Yetkinlikler</h2>
+            <div class="skills">
+              <div class="details">
+                <span> Proje Yönetimi - Ekip Çalışması - İletişim</span>
+              </div>
+              <div class="bar">
+                <div id="general-bar"></div>
+              </div>
+            </div>
+            <div class="skills">
+              <div class="details">
+                <span>HTML - CSS</span>
+              </div>
+              <div class="bar">
+                <div id="html-css-bar"></div>
+              </div>
+            </div>
+            <div class="skills">
+              <div class="details">
+                <span>Javascript - React - Webpack</span>
+              </div>
+              <div class="bar">
+                <div id="react-bar"></div>
+              </div>
+            </div>
+            <div class="skills">
+              <div class="details">
+                <span>Node.js - Express.js - React - Rest Api</span>
+              </div>
+              <div class="bar">
+                <div id="rest-api-bar"></div>
+              </div>
+            </div>
+            <div class="skills">
+              <div class="details">
+                <span>MSSQL - MySQL - PostgreSQL</span>
+              </div>
+              <div class="bar">
+                <div id="database-bar"></div>
+              </div>
+            </div>
+            <div class="skills">
+              <div class="details">
+                <span>C - Python - Java - C#</span>
+              </div>
+              <div class="bar">
+                <div id="low-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-container">
+        <div class="sub-content">
+          <h2 class="color-orange">Eğitim</h2>
+          <br />
+          <div>
+            <h3>> Marmara Üniversitesi</h3>
+            <h5>Teknoloji Fakültesi Bilgisayar Mühendisliği | 2020 - 2024</h5>
+            <ul class="content-li">
+              <li>
+                <p>GNO: 3,33</p>
+              </li>
+              <li>
+                <p>
+                  Algoritma çözme, proje planlaması, bilgisayar donanımı,
+                  veritabanı, C, C#, Java, Python, Javacript, .Net eğitimleri
+                  aldım.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <br />
+          <div>
+            <h3>> Bursa Tofaş Fen Lisesi</h3>
+            <h5>Fen Bilimleri Alanı | 2015 - 2019</h5>
+            <ul class="content-li">
+              <li>
+                <p>Diploma puanı: 92,21</p>
+              </li>
+              <li>
+                <p>Yabancı Dili: İngilizce ve Fransızca</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="sub-content">
+          <h2 class="color-orange">Sertifikalar</h2>
+          <h3>> BTK Akademi</h3>
+          <div>
+            <ul class="certificate-list">
+              <li>
+                <p>Bilgi Teknolojilerine Giriş</p>
+              </li>
+              <li>
+                <p>Java ile Programlamaya</p>
+              </li>
+              <li>
+                <p>Giriş Versiyon Kontrolleri Git ve Github</p>
+              </li>
+              <li>
+                <p>Web Sitesi Kullanılabilirliği</p>
+              </li>
+              <li>
+                <p>İşletim Sistemlerine Giriş</p>
+              </li>
+              <li>
+                <p>HTML5 ile Web Geliştirme</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="hidden" />
+    <!-- !main-container end -->
+  </section>
+  <section class="body-image"></section>
+  <section class="body-text">
+    <!-- !Main-Container -->
+    <hr id="project" class="hidden" />
+    <div class="project-container container-boarder">
+      <div>
+        <h2 class="color-orange">Projeler</h2>
+        <br />
+      </div>
+      <div class="project-card-container">
+        <div class="project-card container-boarder border-color-orange">
+          <a class="caption caption-3" href="https://github.com/MelihAfsar/yemek_otomasyonu"
+            data-title="Yemek Otomasyonu (C)" target="blank"
+            data-description="C programlama dili ile yazılmış, dosya işlemleri kullanılarak hazırlanmış metin tabanlı yemek sipariş otomasyon projesidir.">
+            <img class="" src="./static/images/yemek-otomasyon.png" alt="Yemek_Otomasyonu" />
+          </a>
+        </div>
+        <div class="project-card container-boarder border-color-orange">
+          <a class="caption caption-3" target="blank"
+            href="https://github.com/MelihAfsar/Factory-Personnel-Payroll-System"
+            data-title="Fabrika Personel Maaş Sistemi (Java-Swing)"
+            data-description="Fabrikanın maddi yönetimi için; personelinin bilgilerinin tutulması, maaş hesaplamalarının yapılması amacıyla bir programı yazılmıştır."><img
+              class="" src="./static/images/factory-personnel.png" alt="Factory-Personnel-Payroll-System" /></a>
+        </div>
+        <div class="project-card container-boarder border-color-orange">
+          <a class="caption caption-3" target="blank" href="https://github.com/MelihAfsar/Smart-Camera"
+            data-title="Smart Camera (Python-OpenCV)"
+            data-description="OpenCV kullanarak kameradaki veya videodaki kişileri tanıyan, aynı zamanda giriş yapanların isim ve zaman bilgisinin kaydını tutan bir yüz tanıma sistemidir.">
+            <img class="" src="./static/images/smart-camera.png" alt="Smart-Camera" />
+          </a>
+        </div>
+
+        <div class="project-card container-boarder border-color-orange">
+          <a class="caption caption-3" target="blank" href="https://github.com/MelihAfsar/Netflix-Clone-React"
+            data-title="Netflix Clone (React)"
+            data-description="Webpack alt yapısıyla oluşturulmuş rest-api kullanımıyla Netflix sayfasının klon sayfa çalışması gerçekleştirilmiştir.">
+            <img class="" src="./static/images/netflix.png" alt="Netflix-Clone-React" />
+          </a>
+        </div>
+        <div class="project-card container-boarder border-color-orange">
+          <a class="caption caption-3" target="blank"
+            href="https://github.com/MelihAfsar/ArtificialNeuralNetworks-Python-React"
+            data-title="Artificial Neural Networks Course (Python React)"
+            data-description="Yapay Sinir Ağları dersi kapsamında Python, React ve YOLOv7 kullanılarak sigara objesinin tanımlanması için hazırlanmış bir proje çalışmasıdır."><img
+              class="" src="./static/images/artifical-neural.png" alt="ArtificialNeuralNetworks-Python-React" />
+          </a>
+        </div>
+        <div class="project-card container-boarder border-color-orange">
+          <a class="caption caption-3" target="blank"
+            href="https://github.com/MelihAfsar/Project-Management-Web-Application-React"
+            data-title="Proje Yönetim ve Takibi (React)"
+            data-description="Backend (Express.js), veritabanı (PostgreSQL) ve frontend(React) katmanlarının uygulandığı bir veya birden fazla projenin işleyişinin takip edilebileceği bir web uygulaması yazılmıştır.">
+            <img class="" src="./static/images/vtys.png" alt="Project-Management-Web-Application" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- !main-container end -->
+    <hr class="hidden" />
+  </section>
+
+  <section class="body-image"></section>
+  <section class="body-text" id="contact">
+    <div class="form-container contact-form">
       <h1 class="heading">Benimle İletişime Geç</h1>
       <form action="#">
         <div class="input-box">
           <input type="text" id="nameAndSurname" placeholder="İsim Soyisim" />
           <input type="email" id="email" placeholder="Email Adresiniz" />
         </div>
-        <textarea
-          name=""
-          id="message"
-          cols="20"
-          rows="5"
-          placeholder="Mesajınız"
-        ></textarea>
-        <input type="submit" value="Gönder" class="btn" onclick="showInfo()" />
+        <textarea name="" id="message" cols="20" rows="5" placeholder="Mesajınız"></textarea>
+        <button type="submit" class="btn btn-effect" onclick="showInfo()">
+          GÖNDER
+        </button>
       </form>
       <hr class="hidden" />
-    </section>
+    </div>
+  </section>
 
-    <footer id="contact">
-      <div id="social-media-container">
-        <!-- !social-media-links start-->
-        <ul>
-          <div></div>
-          <li>
-            <a href="https://github.com/MelihAfsar">
-              <span class="fa fa-github"></span>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/melihafsar/">
-              <span class="fa fa-linkedin"></span>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/mafsar42/">
-              <span class="fa fa-instagram"></span>
-            </a>
-          </li>
-          <li>
-            <a href="mailto:melihafsar@hotmail.com.tr">
-              <span class="bi bi-envelope"></span>
-            </a>
-          </li>
-          <div></div>
-        </ul>
-        <!-- !social-media-links end-->
-      </div>
-    </footer>
-    <script src="./js/app.js"></script>
-    <script src="./js/typeWriterAnimation.js"></script>
-    <script src="./js/loadingAnimation.js"></script>
-  </body>
+  <footer id="contact">
+    <div id="social-media-container">
+      <!-- !social-media-links start-->
+      <ul>
+        <div></div>
+        <li class="social-icon-border social-icon-border-hover">
+          <a href="https://www.linkedin.com/in/melihafsar/" class="social-icon">
+            <span class="fa fa-linkedin"></span>
+          </a>
+        </li>
+        <li class="social-icon-border social-icon-border-hover">
+          <a href="https://github.com/MelihAfsar" class="social-icon">
+            <span class="fa fa-github"></span>
+          </a>
+        </li>
+        <li class="social-icon-border social-icon-border-hover">
+          <a href="https://www.instagram.com/mafsar42/" class="social-icon">
+            <span class="fa fa-instagram"></span>
+          </a>
+        </li>
+        <li class="social-icon-border social-icon-border-hover">
+          <a href="mailto:melihafsar@hotmail.com.tr" class="social-icon">
+            <span class="fa fa-envelope"></span>
+          </a>
+        </li>
+        <div></div>
+      </ul>
+      <!-- !social-media-links end-->
+    </div>
+  </footer>
+  <script src="./js/app.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+  <script src="./js/typeWriterAnimation.js"></script>
+  <script src="./js/loadingAnimation.js"></script>
+</body>
+
 </html>

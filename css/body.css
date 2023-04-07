@@ -41,7 +41,20 @@
     height: auto;
     object-fit: contain;
     border-radius: 50%;
+    animation: zoomIn 2s ease forwards; 
 }
+
+@keyframes zoomIn {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
 
 .content-container {
     width: 65%;
@@ -59,43 +72,6 @@
     float: left;
     padding: 10px;
     margin: 10px;
-}
-
-
-.project-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 86%;
-    margin: 0px auto;
-    padding: 20px 0px 0px;
-}
-
-.project-card-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    
-}
-
-.project-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 30%;
-    margin: 10px;
-    padding: 10px;
-}
-
-.project-card img {
-    margin: 10px 0px 0px;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
 }
 
 .certificate-list {
