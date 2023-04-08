@@ -26,28 +26,21 @@
 .navbar a.logo {
   font-size: 25px;
   font-weight: bold;
+  opacity: 0;
+  animation: slideTop 1.2s ease forwards;
 }
 
-.navbar a:hover {
-  animation-name: down-animation;
-  animation-duration: 2s;
-  animation-iteration-count:infinite;
-}
-
-@keyframes down-animation {
+@keyframes slideTop {
   0% {
-    top: 0px;
-  }
-
-  50% {
-    top : 4px;
+    transform: translateY(-100px);
+    opacity: 0;
   }
 
   100% {
-    top: 0px;
+    transform: translateY(0);
+    opacity: 1;
   }
 }
-
 
 .navbar a::after {
   content: '';
@@ -65,38 +58,27 @@
   transition: 0.5s;
 }
 
-.navbar a.active {
-  /* background-color: orange; */
-  /* color: white; */
-  padding: 10px 15px;
-}
-
 .navbar-right {
   float: right;
 }
 
-@media screen and (max-width: 700px) {
-  .navbar a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-  .navbar-right {
-    float: none;
-  }
+.icon {
+  display: none;
 }
 
-/* !navbar */
+/* !navbar-end */
 
+
+/*! home */
 .home {
-  position: relative;
+  /* position: relative; */
   width: 100%;
-  height: 80vh;
+  height: 40vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25% 10% 0;
+  padding: 0 10%;
+  margin-bottom: 15%;
 }
 
 .home-content {
@@ -110,7 +92,7 @@
   animation: slideRight 1.2s ease forwards;
 }
 
-.home-content h3 span{
+.home-content h3 span {
   color: orange;
 }
 
@@ -135,6 +117,7 @@
   background-color: orange;
   border-radius: 50px;
   box-shadow: 0 0 10px orange;
+  color: white;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -156,18 +139,6 @@
   }
 }
 
-@keyframes slideTop {
-  0% {
-    transform: translateY(-100px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
 @keyframes slideBottom {
   0% {
     transform: translateY(100px);
@@ -180,8 +151,6 @@
   }
 }
 
-
-
 #more-info {
   width: 100%;
   text-align: center;
@@ -191,7 +160,6 @@
   padding: 10px;
   position: absolute;
   bottom: 10px;
-
   opacity: 0;
   animation: slideBottom 1.2s ease forwards;
 }
@@ -216,9 +184,85 @@
   }
 }
 
+/*! home */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   #more-info {
     font-size: small;
+    bottom: 0px
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .navbar-bars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+    padding: 5px;
+    margin: 2px;
+
+  }
+
+  .icon {
+    opacity: 0;
+    animation: slideTop 1.2s ease forwards;
+  }
+
+  .navbar-right {
+    float: none;
+  }
+
+
+  /* ! home */
+  .home-content h3 {
+    font-size: 1.3em;
+  }
+
+  .home-content h1 {
+    font-size: 1.9em;
+    font-weight: 700;
+  }
+
+  .home-content p {
+    font-size: 0.5em;
+  }
+
+  .download-btn {
+    font-size: 0.5em;
+    padding: 8px 16px;
+    color: white;
+  }
+
+
+  /* ! topnav */
+
+  .topnav a {
+    display: none;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
   }
 }

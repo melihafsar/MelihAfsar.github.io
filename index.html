@@ -20,13 +20,17 @@
   <script src="./js/elementAnimation.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
 </head>
-
 <body class="loading-animation">
   <!-- !Header start -->
   <header class="background-img">
     <div id="home" class="navbar">
-      <a href="https://github.com/MelihAfsar" class="logo">MELİH AFŞAR</a>
-      <div class="navbar-right">
+      <div class="navbar-bars">
+        <a href="https://github.com/MelihAfsar" class="logo">{ MELİH AFŞAR }</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div id="myTopnav" class="navbar-right topnav">
         <a href="#home" style="--i:1" class="sub-link">Ana Sayfa</a>
         <a href="#about" style="--i:2" class="sub-link">Hakkımda</a>
         <a href="#project" style="--i:3" class="sub-link">Projelerim</a>
@@ -34,16 +38,16 @@
       </div>
     </div>
 
-    <section class="home">
+    <div class="home">
       <div class="home-content">
         <h1>Melih Afşar</h1>
-        <h3><span class="multiple-text"></span></h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure blanditiis molestias quam fugit optio officia
-          eaque ea, laudantium aspernatur? Quis voluptas id placeat sint possimus eveniet quia nisi voluptatum!
-          Voluptatibus!</p>
-        <a href="#" class="download-btn">CV indir</a>
+        <h3> < <span class="multiple-text"></span>/></h3>
+        <p>Yazılım geliştirme ve tasarım bilgisine sahip bir bilgisayar
+          mühendisliği öğrencisiyim.
+          Veritabanları ve React ile çeşitli web projeleri geliştirdim. Ve şu anda frontend teknolojilerini öğrenmeye devam ediyorum.</p>
+        <a href="./static/document/MelihAfsarOzGecmis.pdf" class="download-btn" download >CV indir</a>
       </div>
-    </section>
+    </div>
 
     <a href="#about" id="more-info" onmouseover="addAnimateClass(this)" onmouseout="removeAnimateClass(this)">
       <i>Daha fazlası için lütfen sayfayı kaydırın...</i>
