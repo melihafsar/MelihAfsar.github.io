@@ -16,9 +16,13 @@
   <meta name="msapplication-TileColor" content="#da532c" />
   <meta name="theme-color" content="#ffffff" />
 
-  <link rel="stylesheet" href="./css/app.css" />
-  <script src="./js/elementAnimation.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/app.css"/>
+  <script src="./js/elementAnimation.js" defer></script>
+  <script src="./js/app.js" defer></script>
+  <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js" defer></script>
+  <script src="./js/typeWriterAnimation.js" defer ></script>
+  <script src="./js/loadingAnimation.js"defer ></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" defer rel="stylesheet" />
 </head>
 <body class="loading-animation">
   <!-- !Header start -->
@@ -310,7 +314,7 @@
     <hr class="hidden" />
   </section>
 
-  <section class="body-image"></section>
+  <!-- <section class="body-image"></section> -->
   <section class="body-text" id="contact">
     <div class="form-container contact-form">
       <h1 class="heading">Benimle İletişime Geç</h1>
@@ -329,7 +333,6 @@
       <hr class="hidden" />
     </div>
   </section>
-
   <footer id="contact">
     <div id="social-media-container">
       <!-- !social-media-links start-->
@@ -358,16 +361,14 @@
         <div></div>
       </ul>
       <!-- !social-media-links end-->
+        <a id="top-arrow" href="#home"><i class="fa fa-arrow-up fa-2x" onclick="goToTop()"></i></a>
     </div>
   </footer>
+  
   <script>
     var contactform =  document.getElementById('contactform');
     contactform.setAttribute('action','//formspree.io/' + 'f/' + 'xbjeppdv');
  </script>
-  <script src="./js/app.js"></script>
-  <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
-  <script src="./js/typeWriterAnimation.js"></script>
-  <script src="./js/loadingAnimation.js"></script>
 </body>
 
 </html>
